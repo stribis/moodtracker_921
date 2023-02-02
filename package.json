@@ -1,0 +1,19 @@
+{
+  "name": "moodtracker_921",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "MH",
+  "license": "MIT",
+  "dependencies": {
+    "@seald-io/nedb": "^4.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nedb": "^1.8.0",
+    "node-fetch": "^2.6.8"
+  }
+}
